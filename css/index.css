@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.jiadian{
+    width: 1226px;
+    height: auto;
+    background-color: #f4f4f4;
+    margin: 0 auto
+}
+.jiadian .tou{
+    width: 100%;
+    height: 58px;
+    background-color: #f4f4f4;
+    line-height: 58px;
+}
+.jiadian .tou p{
+    float: left;
+    line-height: 58px;
+}
+.jiadian .tou .you{
+    float: right;
+    margin-left: 40px;
+}
+.jiadian .tou span{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.jiadian .tou span:hover{
+    color: #FF6700;
+    border-bottom: 2px solid #FF6700;
+    padding-bottom: 6px;
+}
+.neirong{
+    width: auto;
+    height: 614px;
+}
+.neirong .zuo{
+    widows: 234px;
+    height: 614px;
+    background-color: #f4f4f4;
+    float: left;
+} 
+.neirong .zuo .box{
+    width: 234px;
+    height: 300px;
+    background-color: blue;
+    margin-bottom: 14px;
+}
+.neirong .zuo .box1{
+    width: 234px;
+    height: 300px;
+    background-color: blue;
+}
+.neirong .you{
+    width: 992px;
+    height: 614px;
+    background-color:#f4f4f4;
+    float: right;
+    
+}
+.neirong .you .box{
+    width: 234px;
+    height: 300px;
+    background-color: #FEFEFE;
+    float: left;
+    margin-bottom: 14px;
+    margin-left: 14px;
+}
+.neirong .you .box1{
+    width: 234px;
+    height: 143px;
+    float: left;
+}
+.neirong .you .box1 img{
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin: 31px 20px 0 0;
+}
+}
+.neirong .you .box2{
+    margin-bottom: 0px;
+}
+.neirong .you .box5 img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 35px;
+}
+
+.neirong .you .box p{
+    text-align: center;
+    font-size:14px; 
+    margin-top: 10px;
+    color: black;
+}
+.neirong .you .box pre.ping{
+    text-align: center;
+    font-size:14px; 
+    color: #FF6700;
+    margin-top: 3px;
+}
+.neirong .you .box pre{
+    text-align: center;
+    font-size:12px; 
+    color: #AFAFAF;
+    margin-top: 3px;
+}
+.neirong .you .box .jiage{
+    text-align: center;
+    font-size:14px; 
+    color: #FF6700;
+    margin-top: 20px;
+}
+.neirong .you .box .lun{
+    text-align: center;
+    font-size:14px; 
+    color: #AFAFAF;
+    margin-top: 20px;
+}
+.neirong .you .box s{
+    text-align: center;
+    font-size:14px; 
+    color: #AFAFAF;
+    margin-top: 30px;
+}
+.neirong .you .box1 div{
+    height: auto;
+    background-color: #FEFEFE;
+}
+.neirong .you .box1 p{
+    margin:40px 0 0 30px;
+    font-size: 14px;
+}
+.neirong .you .box1 .huan{
+    color: #FF6700;
+    font-size: 14px;
+}
+.neirong .you .box3 p{
+    margin:40px 0 0 30px;
+    font-size: 18px;
+}
+.neirong .you .box1 .hui{
+    color: #747474;
+    font-size: 12px;
+    margin-left: -16px;
+}
+.tuijian{
+    width: 1226px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+.tuijian .box{
+    width: 234px;
+    height: 300px;
+    background-color: #FEFEFE;
+    float: left;
+    margin: 0 14px 14px 0;
+}
+.tuijian .tou{
+    width: 100%;
+    height: 58px;
+    background-color: #f4f4f4;
+    line-height: 58px;
+}
+.tuijian .tou p{
+    float: left;
+    line-height: 58px;
+}
+.tuijian .box1{
+    margin-right: 0;
+}
+.tuijian .neirong{
+    width: 1226px;
+    height: 300px;
+}
+.tuijian .neirong .box img{
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 35px;
+}
+.tuijian .neirong .box p{
+    text-align: center;
+    font-size:14px; 
+    margin-top: 10px;
+    color: black;
+}
+.tuijian .neirong .box pre{
+    text-align: center;
+    font-size:14px; 
+    color: #FF6700;
+    margin-top: 10px;
+}
+.tuijian .neirong .box div{
+    text-align: center;
+    font-size:14px; 
+    color: #AFAFAF;
+    margin-top: 20px;
+}
+.reping{
+    width: 1226px;
+    height: auto;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+}
+.reping .tou{
+    width: 100%;
+    height: 58px;
+    background-color: #f4f4f4;
+   float: left;
+    text-align: center;
+}
+.reping .box{
+    width: 296px;
+    height: 415px;
+    background-color: #FEFEFE;
+    float: left;
+    margin: 0 14px 14px 0;
+}
+.reping .tou p{
+    float: left;
+    line-height: 58px;
+}
+
