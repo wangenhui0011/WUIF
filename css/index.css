@@ -5,7 +5,102 @@
 }
 a{
     text-decoration: none;
+}
+.biaotou{
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+}
+.biaotou .xiaotou{
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+}
+.biaotou .anniu{
+    width: auto;
+    height: 40px;
+    background-color:#333333;
+    float: left;
+}
+.biaotou  .anniu a{
+    font-size: 14px;
+    color: #AFAFAF;
+    line-height: 40px;
+}
+.biaotou .denglu{
+    width:auto;
+    height: 40px;
+    float: right;
+    margin-right: 26px;
+}
+.biaotou  .denglu a{
+    font-size: 14px;
+    color: #AFAFAF;
+    line-height: 40px;
+}
+.biaotou .gouwu{
+    width: 120px;
+    height: 40px;
+    float: right;
+    margin-right: 30px;
+}
+.biaotou .gouwu a{
+    font-size: 14px;
+    color: #AFAFAF;
+    line-height: 40px;
+    width: 100%;
+    height: 100%;
     display: block;
+    text-align: center;
+}
+.biaotou .gouwu a:hover{
+    color: #FF6700;
+    background-color: #AFAFAF;
+}
+.daohang{
+    height: 100px;
+    width: 1226px;
+    background-color: #FEFEFE;
+    margin: 0 auto;
+}
+.daohang .logo {
+    width: 100px;
+    height: 100px;
+
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+.daohang .logo a{
+    width: 55px;
+    height: 55px;
+    background-color: #FF6700;
+    line-height:100px; 
+    display: block;
+    margin-top: 22px;
+}
+.daohang .daohangzi{
+    height: 100px;
+    width: auto;
+    float: right;
+}
+.daohang .daohangzi a{
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+.daohang .daohangzi a span{
+    color: #000;
+}
+.daohang .daohangzi a span:hover{
+    color: #FF6700;
+}
+.daohang .sousuo{
+    width: 296px;
+    height: 100px;
+    background-color: aqua;
+    float: right;
 }
 .jiadian{
     width: 1226px;
@@ -22,6 +117,7 @@ a{
 .jiadian .tou p{
     float: left;
     line-height: 58px;
+    font-size: 22px;
 }
 .jiadian .tou .you{
     float: right;
@@ -37,7 +133,7 @@ a{
     padding-bottom: 6px;
 }
 .neirong{
-    width: auto;
+    width:1226px;
     height: 614px;
 }
 .neirong .zuo{
@@ -83,7 +179,7 @@ a{
     float: right;
     margin: 31px 20px 0 0;
 }
-}
+
 .neirong .you .box2{
     margin-bottom: 0px;
 }
@@ -163,17 +259,19 @@ a{
     height: 300px;
     background-color: #FEFEFE;
     float: left;
-    margin: 0 14px 14px 0;
+    margin: 0 14px 0 0;
 }
 .tuijian .tou{
     width: 100%;
     height: 58px;
     background-color: #f4f4f4;
     line-height: 58px;
+    margin: 21px auto 0;
 }
 .tuijian .tou p{
     float: left;
     line-height: 58px;
+    font-size: 22px;
 }
 .tuijian .box1{
     margin-right: 0;
@@ -217,8 +315,8 @@ a{
     width: 100%;
     height: 58px;
     background-color: #f4f4f4;
-   float: left;
     text-align: center;
+    margin-top: 21px;
 }
 .reping .box{
     width: 296px;
@@ -230,5 +328,239 @@ a{
 .reping .tou p{
     float: left;
     line-height: 58px;
+    font-size: 22px;
+}
+.reping .box1{
+    margin-right: 0;
+}
+.reping .box img{
+    width: 296px;
+    height: 220px;
+}
+.reping .box p{
+    font-size: 14px;
+    width: 240px;
+    height: 72px;
+    margin: 30px auto 20px ;
+}
+.reping .box pre{
+    width: 240px;
+    height: 18px;
+    margin: 0 28px 8px 25PX;
+    padding: 0 10px  0 0;
+    color: #AFAFAF;
+}
+.reping .box div{
+    margin: 0 0 0 25px;
+    font-size: 14px;
+}
+.reping .box div .jiage{
+    color: #FF6700;
+}
+.reping .box div .shugang{
+    color: #AFAFAF;
+}
+.xiaomi9{
+    width: 1226px;
+    height: 120px;
+    margin: 0 auto;
+}
+.xiaomi9 img{
+    width: 1226px;
+    height: 120px;
+}
+.xiaomi9{
+    width: 1226PX;
+    height: 120PX;
+    background-color: #FEFEFE;
+    overflow: hidden;
+    margin: 40px auto;
+}
+/* .phone{
+    width: 1226px;
+    height: auto;
+    margin:0  auto;
+}
+.phone .top{
+    width:auto;
+    height: 58px;
+    background-color: azure;
+    line-height: 58px;
 }
 
+.phone .top .right{
+    float: right;
+}
+.phone .top .right:hover{
+    color: #FF6700;
+}
+.phone .neirong{
+    width: 100%;
+    height: 614px;
+
+}
+.phone .neirong .box{
+    width: 234px;
+    height: 300px;
+    background-color: #FEFEFE;
+    float: left;
+    margin-bottom: 14px;
+    margin-right: 14px;
+}
+.phone .neirong .box1{
+    margin-right: 0;
+}
+.phone .neirong .box2{
+    margin-bottom: 0;
+} */
+.phone{
+    width: 1226px;
+    height: auto;
+    margin:0  auto;
+}
+.phone .top{
+    width:auto;
+    height: 58px;
+    background-color: azure;
+    line-height: 58px;
+}
+.phone .top .right{
+    float: right;
+    font-size: 16px;
+}
+.phone .top .left{
+    font-size: 22px;
+}
+.phone .top .right:hover{
+    color: #FF6700;
+}
+.phone .neirong{
+    width: 100%;
+    height: 614px;
+    background-color: #F4F4F4;
+}
+.phone .neirong .box{
+    width: 234px;
+    height: 300px;
+    background-color: #FEFEFE;
+    float: left;
+    margin-bottom: 14px;
+    margin-right: 14px;
+}
+.phone .neirong .box1{
+    margin-right: 0;
+}
+.phone .neirong .box2{
+    margin-bottom: 0;
+}
+.phone .neirong .box3{
+    height: 614px;
+}
+.phone .neirong .box3 img{
+    width: 234px;
+    height: 614px;
+}
+.phone .neirong .lvkuai{
+    width: 64px;
+    height: 20px;
+    background-color: #81C350;
+    margin: 0 auto;
+    color: #FEFEFE;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+.phone .neirong .lvkuai.hong{
+    width: 64px;
+    height: 20px;
+    background-color: #E43834;
+}
+.phone .neirong .box .xiaomi9{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    display: block;
+}
+.phone .neirong .box .xiaomi8{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+.phone .neirong .box p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+.phone .neirong .box .jiage{
+    font-size: 14px;
+    color: #FF6700;
+    text-align: center; 
+    margin-top: 5px；
+}
+.phone .neirong .box .jiage s{
+    color: #AFAFAF;
+}
+.phone .neirong .box pre{
+    font-size: 12px;
+    text-align: center;
+    color: #5D5D5D;
+    margin: 0px 10px 15px;
+}
+.phone .neirong .lvkuai{
+    width: 64px;
+    height: 20px;
+    background-color: #81C350;
+    margin: 0 auto;
+    color: #FEFEFE;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+.phone .neirong .lvkuai.hong{
+    width: 64px;
+    height: 20px;
+    background-color: #E43834;
+}
+.phone .neirong .box .xiaomi9{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    display: block;
+}
+.phone .neirong .box .xiaomi8{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+.lunbo{
+    width:1226px;
+    height: 460px;
+    margin:0  auto;
+    background-color: #000;
+}
+.xiaotu{
+    width: 1226px;
+    height: 170px;
+    background-color: #FEFEFE;
+    margin: 14px auto 0;
+}
+.xiaotu .box{
+    width: 316px;
+    height: 170px;
+    background-color: #f4f4f4;
+    float: right;
+    margin: 0 0 0 14px;
+}
+.xiaotu .box img{
+    width: 316px;
+    height: 170px;
+}
+.xiaotu .fenkuai{
+    width: 234px;
+    height: 170px;
+    background-color: #000
+}
