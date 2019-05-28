@@ -80,7 +80,6 @@ body{
 .daohang .logo {
     width: 100px;
     height: 100px;
-
     float: left;
     display: block;
     overflow: hidden;
@@ -1159,11 +1158,18 @@ body{
     color: #757575;
     font-size: 12px;
 }
+.lianjie .xia span{
+    color: #757575;
+    font-size: 12px;
+}
 .lianjie .zhong{
     width: 1159px;
     height: 72px;
     float: left;
     padding: 0 0 0 6px;
+}
+.lianjie .xia  a:hover{
+    color: #ff6700;
 }
 .lianjie .lo{
     width: 1000px;
