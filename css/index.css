@@ -291,6 +291,7 @@ body{
     overflow: hidden;
     text-overflow: ellipsis;
     padding: 0 20px;
+    line-height: 20px;
 }
 .jiadian .neirong .you .box pre.ping{
     text-align: center;
@@ -303,6 +304,7 @@ body{
     font-size:12px; 
     color: #AFAFAF;
     margin-top: 3px;
+    line-height: 20px;
 }
 .jiadian .neirong .you .box .jiage{
     text-align: center;
@@ -464,6 +466,13 @@ body{
     width: 240px;
     height: 72px;
     margin: 30px auto 20px ;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 23px;
+
 }
 .reping .box pre{
     width: 240px;
@@ -590,6 +599,7 @@ body{
     text-align: center;
     margin-top: 20px;
     color: #000;
+    line-height: 20px;
 }
 .phone .neirong .box .jiage{
     font-size: 14px;
@@ -599,12 +609,18 @@ body{
 }
 .phone .neirong .box .jiage s{
     color: #AFAFAF;
+    margin-left: 5px;
 }
 .phone .neirong .box pre{
     font-size: 12px;
     text-align: center;
     color: #5D5D5D;
     margin: 0px 10px 15px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 20px;
 }
 .phone .neirong .lvkuai{
     width: 64px;
@@ -616,12 +632,6 @@ body{
     font-size: 12px;
     line-height: 20px;
 }
-/* .icon-chakanquanbu-copy2{
-    color: #AFAFAF;
-}
-.phone .tou .right:hover .icon-chakanquanbu-copy2{
-    color: #FF6700;
-}  */
 .phone .neirong .lvkuai.hong{
     width: 64px;
     height: 20px;
