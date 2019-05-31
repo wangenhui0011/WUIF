@@ -207,7 +207,6 @@ body{
 .jiadian .neirong .zuo .box{
     width: 234px;
     height: 300px;
-    background-color: blue;
     margin-bottom: 14px;
 }
 .jiadian .neirong .zuo .box:hover{
@@ -218,7 +217,6 @@ body{
 .jiadian .neirong .zuo .box1{
     width: 234px;
     height: 300px;
-    background-color: blue;
 }
 .jiadian .neirong .zuo .box1:hover{
     transform: translateY(-5px);
@@ -654,7 +652,6 @@ body{
     width:1226px;
     height: 460px;
     margin:0  auto;
-    background-color: #000;
     position: relative;
 }
 .lunbo a{
@@ -667,7 +664,6 @@ body{
     width:1226px;
     height: 460px;
     margin:0  auto;
-    background-color: rebeccapurple;
     position: absolute;
     top: 0;
 }
